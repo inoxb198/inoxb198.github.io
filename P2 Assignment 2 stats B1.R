@@ -7,3 +7,4 @@ table(s)
 fitdistr(s,'poisson')
 dpois(s,0.7)*280
 table(dpois(s,0.7)*280)
+curve(exp(-0.7) * 0.7^x * 280 / factorial(x), 0, 4, add = TRUE)
