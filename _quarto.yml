@@ -7,12 +7,14 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About
       - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: quartz
+      dark: vapor
     css: styles.css
     toc: true
 
